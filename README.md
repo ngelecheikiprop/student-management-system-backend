@@ -47,6 +47,11 @@ After installing the tools, switch to the SQL Server user:
 su -mssql
 ```
 
+##5. Acess `sqlcmd`
+```
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P 'StrongP@ssw0rd!'
+```
+
 ## 5. Create a Test Database  
 
 Use `sqlcmd` to create a test database:  
